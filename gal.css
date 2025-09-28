@@ -5,7 +5,13 @@
     
 
 }
-@media(max-width: 600px){}
+@media (max-width: 600px) {
+  .galeri img {
+    width: 100%;
+    height: auto;
+  }
+  /* Diğer düzenlemeler */
+}
 .banner {
     height: 200vh;
     width: 100%;
@@ -109,3 +115,4 @@ text-align: center;
     margin: 0 25px;
 
 }
+
